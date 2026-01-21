@@ -121,7 +121,7 @@ jobs:
           file: ./client/Dockerfile
           push: true
           tags: |
-            mike502/frontend:latest
+            mike502/frontend: latest
             mike502/frontend:${{ env.IMAGE_TAG }}
 
   trivy_image_scan:
